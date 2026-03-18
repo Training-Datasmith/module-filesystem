@@ -290,7 +290,6 @@ class Filesystem extends Module
         }
     }
 
-
     /**
      * Erases directory contents
      *

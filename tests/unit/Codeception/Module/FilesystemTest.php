@@ -17,7 +17,6 @@ if (!function_exists('make_container')) {
 
 final class FilesystemTest extends TestCase
 {
-
     protected ?Filesystem $module = null;
 
     public function _setUp()
@@ -25,7 +24,6 @@ final class FilesystemTest extends TestCase
         $this->module = new Filesystem(make_container());
         $this->module->_before(Stub::makeEmpty(\Codeception\Test\Test::class));
     }
-
 
     public function _tearDown()
     {
